@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    line-height: 1.7;
+}
+.my{
+    position: relative;
+}
+.my2{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 220px;
+    left: 200px;
+}
+.my h1{
+    position: absolute;
+    font-size: 220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: white;
+    top: 5px;
+    left: 520px;
+}
+.my p{
+    position: absolute;
+    font-size: 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 100px;
+    line-height: 2.5;
+    top: 0;
+    left: 780px;
+}
+.my h3{
+    position: absolute;
+    font-size: 40px;
+    font-weight: normal;
+    color: black;
+    top: 400px;
+    left: 850px;
+}
+.momo p{
+    position: absolute;
+    white-space: pre;
+    font-size: 25px;
+    top: 500px;
+    left: 700px;
+}
+.momo p span{
+    color: red;
+}
+.momo img{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 180px;
+    left: 1500px;
+}
+.prof img{
+    position: absolute;
+    width: 600px;
+    height: auto;
+    top: 1400px;
+    left: 1200px;
+}
+.prof h1{
+    position: absolute;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bolder;
+    letter-spacing: 80px;
+    top: 900px;
+    left: 700px;
+}
+.prof span{
+    color: yellow !important;
+}
+.prof h2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 1220px;
+    left: 380px;
+}
+.prof p{
+    position: absolute;
+    font-size: 25px;
+    white-space: pre;
+    top: 1250px;
+    left: 100px;
+
+}
+.presen1 span{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top: 1600px;
+    left: 450px;
+}
+.presen1 p{
+    position: absolute;
+    font-size: 25px;
+    white-space: pre;
+    top: 1600px;
+    left: 110px;
+}
+.presen1 a{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    top: 1900px;
+    left: 1800px;
+}
+.presen1 a:hover{
+    color: #0bd;
+}
+    
+
+
+    
