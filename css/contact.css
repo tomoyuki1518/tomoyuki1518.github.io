@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+}
+body{
+    background-color: white;
+}
+.pc{
+    text-align: center;
+    margin-top: 10%;
+}
+.pc p{
+    font-size: 80px;
+    font-family: cursive;
+    margin: 10px 0 42px;
+} 
