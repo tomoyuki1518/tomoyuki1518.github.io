@@ -58,7 +58,7 @@ body{
     position: absolute;
     width: 250px;
     height: auto;
-    top: 180px;
+    top: 260px;
     left: 1500px;
 }
 .prof img{
@@ -76,9 +76,6 @@ body{
     letter-spacing: 80px;
     top: 900px;
     left: 700px;
-}
-.prof span{
-    color: yellow !important;
 }
 .prof h2{
     position: absolute;

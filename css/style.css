@@ -8,7 +8,8 @@ body{
     color: #432;
 }
 .icon{
-    position: relative;
+    position: absolute;
+    margin-top: 0%;
 }
 .icon2 {
     position: absolute;
@@ -21,7 +22,7 @@ body{
     position: absolute;
     font-size: 100px;
     font-family: cursive;
-    font-weight: bolder;
+    font-weight: lighter;
     color: black;
     top: 500px;
     left: 300px;
@@ -51,18 +52,12 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.wrapper{
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 4%;
-
-
-}
 .niti p{
     position: absolute;
     font-size: 80px;
     font-family: cursive;
-    left: 350px;
+    font-weight: lighter;
+    left: 310px;
     top: 800px;
 
 }
