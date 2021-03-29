@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 html{
     font-size: 100%;
 }
@@ -8,7 +9,7 @@ body{
     color: #432;
 }
 .icon{
-    position: absolute;
+    position: relative;
     margin-top: 0%;
 }
 .icon2 {
@@ -71,3 +72,16 @@ body{
     
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
