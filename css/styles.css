@@ -3,7 +3,7 @@
 @media (max-width: 768px){
     .icon{
         flex-direction: column;
-        display: flex;       
+        display: flex;
     }
     .icon .icon2{
         max-width: 80px;
