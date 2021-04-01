@@ -7,6 +7,8 @@ html{
 body{
     line-height: 1.7;
     color: #432;
+    margin: 0;
+    position: fixed;
 }
 .icon{
     position: relative;
@@ -22,11 +24,10 @@ body{
 .icon p{
     position: absolute;
     font-size: 100px;
-    font-family: cursive;
     font-weight: lighter;
     color: black;
     top: 500px;
-    left: 300px;
+    left: 200px;
 }
 .main{
     display: flex;
@@ -56,9 +57,7 @@ body{
 .niti p{
     position: absolute;
     font-size: 80px;
-    font-family: cursive;
     font-weight: lighter;
-    left: 310px;
     top: 800px;
 
 }

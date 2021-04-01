@@ -3,29 +3,25 @@
 html{
     font-size: 62.5%;
 }
-.top .img{
-    background-image: url(/img/rogo3.jpg);
-   position: relative;
-    top: 10px;
-    left: 250px;
-    width: 80%;
-    height: 400px;
+body{
+    margin: 0;
+}
+.top{
+    margin: 100px 250px;
 }
 .top .pageTtl{
-    position: absolute;
     font-size: 10.0rem;
     line-height: 1;
     letter-spacing: 0.45em;
-    top: 0;
-    left: 550px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 .food-text{
     margin: 100px 250px;
 }
 .food-text p{
     font-size: 80px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -72,7 +68,7 @@ html{
 }
 .bike-text p{
     font-size: 80px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -100,7 +96,7 @@ html{
 }
 .sport p{
     font-size: 80px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -125,7 +121,7 @@ html{
 }
 .fashion-text p{
     font-size: 80px;
-    font-family: cursive;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     letter-spacing: 10px;
 }
@@ -168,7 +164,7 @@ html{
 }
 .co-de a{
     font-size: 20px;
-    margin-left: 380px;
+    margin-left: 300px;
 }
 .co-de a:hover{
     color: #0bd;

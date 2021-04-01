@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
 @media (max-width: 768px){
-    .my{
-        display: flex;
-        flex-direction: column;
+    .flexible-images{
+        position: fixed;
     }
     .my2{
         max-width: 100px;
@@ -80,28 +79,20 @@
     }
 }
 @media (min-width: 768px) and (max-width: 1024px){
-    .my{
-        display: flex;
-        flex-direction: column;
-    }
     .my2{
         max-width: 25%;
-        height: auto;
-        top: 50px;
-        left: 65px;
+        left: 8%;
     }
     .my h1{
         font-size: 100px;
         top: 30px;
         left: 175px;
-        font-family: 'Courier New', Courier, monospace;
     }
     .my p{
         font-size: 100px;
         left: 280px;
         letter-spacing: 35px;
         line-height: 1.6;
-        font-family: 'Courier New', Courier, monospace;
     }
     .my h3{
         font-size: 30px;
@@ -157,5 +148,72 @@
         font-size: 13px;
         top: 1150px;
         left: 550px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1366px){
+    .flexible-images{
+        position: fixed;
+    }
+    .my2{
+        margin-top: -15%;
+    }
+    .my h1{
+        font-size: 8rem;
+        left: 22%;
+    }
+    .my p{
+        font-size: 8rem;
+        left: 35%;
+        top: 2.8%;
+    }
+    .my h3{
+        font-size: 2.2rem;
+        margin-top: 13%;
+        left: 32%;
+    }
+    .momo p{
+        font-size: 1.4rem;
+        left: 5%;
+        top: 35%;
+        
+    }
+    .momo img{
+        width: 10%;
+        top: 14%;
+        left: 80%;
+    }
+    .prof h1{
+        top: 50%;
+        left: 28%;
+    }
+    .prof img{
+        width: 35%;
+        left: 60%;
+        top: 65%;
+    }
+    .prof h2{
+        font-size: 1.3rem;
+        top: 60%;
+        left: 12%;
+    }
+    .prof p{
+        font-size: 0.9rem;
+        top: 62%;
+        left: 1%;
+    }
+    .presen1 span{
+        font-size: 1.3rem;
+        top: 74%;
+        left: 23%;
+    }
+    .presen1 p{
+        font-size: 0.9rem;
+        top: 75%;
+        left: 1%;
+    }
+    .presen1 a{
+        font-size: 1rem;
+        top: 88%;
+        left: 75%;
     }
 }
